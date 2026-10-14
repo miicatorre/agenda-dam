@@ -1,16 +1,30 @@
-# React + Vite
+# 📅 Agenda DAM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web personal desarrollada como proyecto de portfolio del Grado en DAM.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologías
+- React 19 + Vite 8
+- React Router v6
+- localStorage (persistencia de datos sin backend)
+- CSS personalizado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Características
+- 📆 Horario semanal de clases con vista por día
+- ✅ Gestión de tareas con enlaces y fechas de entrega
+- 🗓️ Calendario mensual
+- 🏋️ Actividades extraescolares (deportes, idiomas)
+- 🚧 Integración con Google Classroom preparada (Fase 2)
 
-## React Compiler
+## 🌐 Demo en vivo
+[https://miicatorre.github.io/agenda-dam](https://miicatorre.github.io/agenda-dam)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Instalación local
+```bash
+git clone https://github.com/miicatorre/agenda-dam.git
+cd agenda-dam
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👩‍💻 Autora
+Micaela Torre Durán — 2º DAM, CEINMARK Centro de Estudios
