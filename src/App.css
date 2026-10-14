@@ -1,0 +1,10 @@
+.app-container {
+    max-width: 430px;
+    margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+.main-content {
+    padding: 0 0 72px 0;
+}
